@@ -17,6 +17,7 @@ public class Funcionario {
     public String getCpf() { return cpf; }
     public double getSalario() { return salario; }
 
+    // Metodos
     public double aplicarAumento(double percentual) {
         if (percentual > 0) {
             salario = salario + (salario * (percentual / 100));
