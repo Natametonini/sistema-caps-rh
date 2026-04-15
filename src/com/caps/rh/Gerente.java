@@ -19,7 +19,7 @@ public class Gerente extends Funcionario {
     } 
 
     // Metodos
-    public double calacularRemuneracaoTotal() {
+    public double calcularRemuneracaoTotal() {
         return getSalario() + bonusAnual;
     }
 }
